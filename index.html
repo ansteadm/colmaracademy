@@ -6,58 +6,76 @@
     <link rel="stylesheet" type="text/css" href="css/style.css">
   </head>
   <body>
+
+    <!-- Header -->
+
     <header>
-      <div class="title">
-        <div class="logo">
-          <img src="../css/images/ic-logo.svg" alt="Logo">
+        <div class="company">
+          <div class="logo">
+            <img src="css/images/ic-logo.svg" alt="Colmar logo">
+          </div>
+          <h2><span class="colmar">COLMAR</span><span id="academy">ACADEMY</span></h2>
         </div>
-        <nav>
+
+        <!-- Desktop Menu -->
+
+        <nav class="menu">
           <ul>
-          <span>On campus</span>
-          <span>Online</span>
-          <span>For companies</span>
-          <span>Sign in</span>
-          </ul>
-          <ul>
-            <img src="../css/images/ic-logo.svg" alt="">
-            <img src="../css/images/ic-on-campus.svg" alt="chair">
-            <img src="../css/images/ic-online.svg" alt="Online">
-            <img src="../css/images/ic-login.svg" alt="Login">
+          <span><a href="#">On campus</a></span>
+          <span><a href="#">Online</a></span>
+          <span><a href="#">For companies</a></span>
+          <span><a href="#">Sign in</a></span>
           </ul>
         </nav>
-      </div>
+
+          <!-- Header Mobile -->
+
+        <nav class="mobile-nav"
+          <ul>
+            <a href="#"><img src="css/images/ic-logo.svg" alt=""></a>
+            <a href="#"><img src="css/images/ic-on-campus.svg" alt="chair"></a>
+            <a href="#"><img src="css/images/ic-online.svg" alt="Online"></a>
+            <a href="#"><img src="css/images/ic-login.svg" alt="Login"></a>
+          </ul>
+        </nav>
     </header>
+
+    <!-- Content Info -->
+    <div class="content">
 
     <!-- Grey Banner -->
 
     <div class="banner">
+    <div class="left-column">
       <div class="img">
-        <img src="banner.jpg" alt="Student studying">
+        <img src="css/images/banner.jpg" alt="Student studying">
       </div>
-
+    </div>
+    <div class="right-column right">
       <div class="grey-banner-text">
         <h2>Learn something new everyday</h2>
         <h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h4>
       </div>
 
-      <div class="banner-button">
-        <h2>Start here</h2>
-      </div>
+      <a href="#"><div class="banner-button">
+        <h4>Start here</h4>
+      </div></a>
     </div>
+  </div>
 
     <!-- Info banner -->
 
     <div class="information-main">
       <div class="left-column">
-        <img src="../css/images/information-main.jpg" alt="Reading book">
-        <h2>It doesn't hurt to keep practicing</h2>
+        <img src="css/images/information-main.jpg" alt="Reading book">
+        <h1>It doesn't hurt to keep practicing</h1>
         <p>"Curabitur vitae libero in ipsum porttitor consequat. Aliquam et commodo lectus, nec consequat neque. Sed non accumsan urna. Phasellus sed consequat ex. Etiam eget magna laoreet, efficitur dolor consequat, tristique ligula."</p>
         <h5>Emanuel, Sr Strategist at Hiring.com</h5>
       </div>
       <div class="right-column">
         <div class="info">
           <div class="image">
-            <img src="../css/images/information-orientation.jpg" alt="Students walking at orientation">
+            <img src="css/images/information-orientation.jpg" alt="Students walking at orientation">
           </div>
           <div class="information">
             <h4>Orientation date</h4>
@@ -70,7 +88,7 @@
 
         <div class="info">
           <div class="image">
-            <img src="../css/imagesinformation-campus.jpg" alt="Campus study area">
+            <img src="css/images/information-campus.jpg" alt="Campus study area">
           </div>
           <div class="information">
             <h4>Our campus</h4>
@@ -83,7 +101,7 @@
 
         <div class="info" id="grey">
           <div class="image">
-            <img src="../css/images/information-guest-lecture.jpg" alt="Guest lecturer">
+            <img src="css/images/information-guest-lecture.jpg" alt="Guest lecturer">
           </div>
           <div class="information">
             <h4>Our guest lecture</h4>
@@ -152,7 +170,7 @@
         <div class="exhibit-content">
           <div class="left-column">
             <div class="vid">
-              <video width="320" height="240">
+              <video width="320" height="240" autoplay controls loop>
                 <source src="css/videos/thesis.mp4" type="video/mp4">
                 Your browser does not support the video tag.
               </video>
@@ -185,6 +203,7 @@
         <h4>Reimagine urban</h4>
         <p>"Curabitur vitae libero in ipsum portitor consequat. Aliquam et commodo lectus, nec consequat neque. Sed non accumsan urna. Phasellus sed consequat ex. Etiam eget magna laoreet, efficitur dolor consequat, tristique ligula."</p>
     </div>
+  </div>
 
     <!-- Footer -->
 
@@ -192,10 +211,10 @@
     <div class="colmar">
       <span>© 2016 Colmar Academy. All rights reserved</span>
     </div>
-    <div class="terms">
+    <nav class="footer">
       <span>Terms</span>
       <span>Privacy</span>
-    </div>
+    </nav>
     </footer>
 
   </body>

@@ -1,0 +1,201 @@
+html {
+  font-size: 16px;
+  font-family: Helvetica, sans-serif;
+  color: black;
+}
+
+body {
+  background-color: white;
+  margin: 0px;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* header */
+
+header {
+  z-index: 100;
+  position: fixed;
+  display: flex;
+  justify-content: space-between;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  min-height: 4rem;
+  right: 0;
+  left: 0;
+  background-color: white;
+  height: 4rem;
+}
+
+.company {
+  display: inline-flex;
+  align-self: center;
+}
+
+.logo {
+  align-self: center;
+  padding-right: .25rem;
+  min-height: 2rem;
+  padding-left: 1.5rem;
+}
+
+.logo img {
+  height: 2rem;
+}
+
+#academy {
+  color: lightgrey;
+}
+
+#colmar {
+  font-weight: bold;
+}
+
+.mobile-nav {
+  display: none;
+}
+
+.menu {
+  display: inline-flex;
+  align-self: center;
+  color: black;
+}
+
+.menu ul span {
+  margin-left: 1rem;
+}
+
+.menu ul span:hover {
+  font-weight: bold;
+  color: darkgrey;
+}
+
+/* content */
+
+.content {
+  padding-top: 4rem;
+}
+
+.banner {
+  background-color: lightgrey;
+  display: flex;
+  max-width: 100%;
+  align-items: center;
+}
+
+.left-column {
+  max-width: 60%;
+  padding: 2rem 1.5rem 2rem 1.5rem;
+}
+
+.left-column img {
+  width: 100%;
+}
+
+.right-column {
+  display: flex;
+  flex-direction: column;
+  margin-left: 1.5rem;
+
+}
+
+.right {
+  max-width: 25%;
+  justify-content: center;
+}
+
+.grey-banner-text {
+  color: grey;
+}
+
+.banner-button {
+  display: flex;
+  color: white;
+  background-color: grey;
+  align-content: center;
+  justify-content: center;
+}
+
+.banner-button h4 {
+  padding: .5rem .5rem;
+  margin: 0px;
+}
+
+.banner-button:hover {
+  background-color: darkgrey;
+  font-weight: bold;
+}
+
+  /* Information Section */
+
+.information-main {
+  font-family: Arial;
+  display: flex;
+}
+
+.information-main .left-column {
+  display: block;
+  color: grey;
+}
+
+.information-main .left-column h1 {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  font-weight: bold;
+  margin: 0px;
+}
+
+.information-main .left-column p {
+  margin: 0px;
+}
+
+.information-main .left-column h5 {
+  padding-bottom: 2rem;
+}
+
+.information-main .right-column {
+  width: 40%;
+  display: flex;
+  width: 40%;
+  border: 1px lightgrey solid;
+}
+
+.image {
+  width: 35%;
+  flex-wrap: wrap;
+}
+
+.info .image img {
+  width: 100%;
+  height: auto;
+}
+
+.info {
+  display: flex;
+  border: 1px lightgrey solid;
+  height: 11rem;
+  transition: all 0.4s linear;
+  justify-content: flex-start;
+}
+
+.information {
+  width: 65%;
+  align-content: center;
+  flex-wrap: wrap;
+  font-family: Arial;
+}
+
+.info:first-child {
+  padding-top: 1rem;
+}
+
+.info:last-child {
+  background-color: lightgrey;
+}
+
+.information h4 {
+  font-weight: bold;
+  font-size: 1.5rem;
+}
