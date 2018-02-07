@@ -30,7 +30,7 @@
 
           <!-- Header Mobile -->
 
-        <nav class="mobile-nav"
+        <nav class="mobile-nav">
           <ul>
             <a href="#"><img src="css/images/ic-logo.svg" alt=""></a>
             <a href="#"><img src="css/images/ic-on-campus.svg" alt="chair"></a>
@@ -66,7 +66,7 @@
     <!-- Info banner -->
 
     <div class="information-main">
-      <div class="left-column">
+      <div class="left-column mobile-column">
         <img src="css/images/information-main.jpg" alt="Reading book">
         <h1>It doesn't hurt to keep practicing</h1>
         <p>"Curabitur vitae libero in ipsum porttitor consequat. Aliquam et commodo lectus, nec consequat neque. Sed non accumsan urna. Phasellus sed consequat ex. Etiam eget magna laoreet, efficitur dolor consequat, tristique ligula."</p>
@@ -121,7 +121,7 @@
         <h3>Start learning</h3>
       </div>
       <div class="contents">
-        <div class="row">
+
         <div class="class">
           <img src="css/images/course-software.jpg" alt="Computer Software">
           <h4>Software engineering</h4>
@@ -140,8 +140,6 @@
           <p>COURSES</p>
           <p>User Experience Design, User Research, Visual Design</p>
         </div>
-      </div>
-      <div class="row">
         <div class="class">
           <img src="css/images/course-data.jpg" alt="Computer data">
           <h4>Data</h4>
@@ -161,7 +159,7 @@
           <p>Analytics, Content Marketing, Mobile Marketing</p>
         </div>
       </div>
-      </div>
+
     </div>
 
     <!-- Thesis Exhibit -->
@@ -172,17 +170,19 @@
         </div>
 
         <div class="exhibit-content">
-          <div class="left-column">
-            <div class="vid">
+          <div class="left-column" id="left">
               <video width="320" height="240" autoplay controls loop>
                 <source src="css/videos/thesis.mp4" type="video/mp4">
                 Your browser does not support the video tag.
               </video>
-            </div>
+              <div class="urban">
+                <h4>Reimagine urban</h4>
+                <p>"Curabitur vitae libero in ipsum portitor consequat. Aliquam et commodo lectus, nec consequat neque. Sed non accumsan urna. Phasellus sed consequat ex. Etiam eget magna laoreet, efficitur dolor consequat, tristique ligula."</p>
+              </div>
           </div>
 
           <div class="right-column">
-            <div class="info" id="grey">
+            <div class="info" id="exhibit-grey">
               <div class="image">
                 <img src="css/images/thesis-fisma.jpg" alt="Thesis">
               </div>
@@ -204,8 +204,7 @@
           </div>
         </div>
 
-        <h4>Reimagine urban</h4>
-        <p>"Curabitur vitae libero in ipsum portitor consequat. Aliquam et commodo lectus, nec consequat neque. Sed non accumsan urna. Phasellus sed consequat ex. Etiam eget magna laoreet, efficitur dolor consequat, tristique ligula."</p>
+
     </div>
   </div>
 
@@ -216,8 +215,8 @@
       <span>© 2016 Colmar Academy. All rights reserved</span>
     </div>
     <nav class="footer">
-      <span>Terms</span>
-      <span>Privacy</span>
+      <a href="#"><span>Terms</span></a>
+      <a href="#"><span>Privacy</span></a>
     </nav>
     </footer>
 
